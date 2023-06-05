@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/personal_portfolio/static/css/main.fe18f772.css",
+    "main.js": "/personal_portfolio/static/js/main.aad172c3.js",
+    "static/media/dellsony.jpeg": "/personal_portfolio/static/media/dellsony.f1fdfa85e82eeb43c983.jpeg",
+    "static/media/Wordpress_Blue_logo.png": "/personal_portfolio/static/media/Wordpress_Blue_logo.709a24d0d9031a20e5bc.png",
+    "static/media/photoshop.png": "/personal_portfolio/static/media/photoshop.904e9bfd02239c75819f.png",
+    "static/media/c-logo-vector.png": "/personal_portfolio/static/media/c-logo-vector.09450dca098fd5a98918.png",
+    "static/media/illustrator.png": "/personal_portfolio/static/media/illustrator.1101a43f2fc7ec56a3af.png",
+    "static/media/react.png": "/personal_portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/node.png": "/personal_portfolio/static/media/node.952a9ea986dcfa5229ad.png",
+    "static/media/github.png": "/personal_portfolio/static/media/github.3b9e32903aa89111875d.png",
+    "static/media/html.png": "/personal_portfolio/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/tailwind.png": "/personal_portfolio/static/media/tailwind.e47ac876b8d4d0bba47a.png",
+    "static/media/css.png": "/personal_portfolio/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/javascript.png": "/personal_portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "/personal_portfolio/index.html",
+    "main.fe18f772.css.map": "/personal_portfolio/static/css/main.fe18f772.css.map",
+    "main.aad172c3.js.map": "/personal_portfolio/static/js/main.aad172c3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fe18f772.css",
+    "static/js/main.aad172c3.js"
+  ]
+}
