@@ -1,11 +1,12 @@
 import React, { useState } from "react";
+import Sololearn from "../assets/sololearn.svg";
 import {
   FaBars,
   FaTimes,
   FaGithub,
   FaLinkedin,
-  FaFacebook,
-  FaLinkedinIn,
+  FaFreeCodeCamp,
+  FaHackerrank,
 } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
@@ -118,6 +119,45 @@ const Navbar = () => {
               Github <FaGithub size={30} />
             </a>
           </li>
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#000000]">
+            <a
+              className="flex justify-between items-center w-full text-gray-300"
+              href="https://www.freecodecamp.org/fcc6196b037-a1a1-4835-82f6-52ac4c252b4b"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Free Code Camp <FaFreeCodeCamp size={30} />
+            </a>
+          </li>
+
+          <li className="w-[180px] h-[60px] flex justify-between items-center ml-[-120px] hover:ml-[-10px] duration-300 bg-[#0e8030]">
+            <a
+              className="flex justify-between items-center w-full text-gray-300"
+              href="https://www.hackerrank.com/eng_dellsony?hr_r=1"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              HackerRank <FaHackerrank size={30} />
+            </a>
+          </li>
+
+          <li className="w-[180px] h-[60px] flex justify-between items-center ml-[-120px] hover:ml-[-10px] duration-300 bg-[#ffffff]">
+            <a
+              className="flex justify-between items-center w-full text-gray-500"
+              href="https://www.sololearn.com/profile/28574310"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Solo Learn{" "}
+              <img
+                src={Sololearn}
+                alt="Sololearn Icon"
+                width={30}
+                height={30}
+              />
+            </a>
+          </li>
+
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
