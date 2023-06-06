@@ -5,7 +5,7 @@ import Dellsony from "../assets/dellsony.jpeg";
 const Home = () => {
   return (
     <div>
-      <section id="about" className="bg-[#010201]">
+      <section name="home" className="bg-[#010201]">
         <div className=" w-full h-screen container mx-auto flex px-10 py-20 md:flex-row flex-col items-center bg-[#010201] text-gray-300">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <h1 className="text-4xl sm:text-7xl font-bold text-[#ffffff]">
