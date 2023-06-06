@@ -18,9 +18,9 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[50px] flex justify-between items-center px-4 bg-[#0a192f] text-[#999999]">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-[#999999]">
       <div>
-        <img src={Logo} alt="Logo Image" style={{ width: "100px" }} />
+        <img src={Logo} alt="Logo Image" style={{ width: "200px" }} />
       </div>
 
       {/* menu */}
@@ -171,7 +171,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="https://drive.google.com/file/d/1a_WTpEhjV2oypE9C-TSRZ017aFAVIaNm/view?usp=sharing"
+              href="https://drive.google.com/file/d/1yfHkMuYXc_jgismYY_apXRP5rYPSnWtm/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
