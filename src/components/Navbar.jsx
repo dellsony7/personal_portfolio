@@ -17,9 +17,9 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-green-300">
+    <div className="fixed w-full h-[50px] flex justify-between items-center px-4 bg-[#0a192f] text-[#999999]">
       <div>
-        <img src={Logo} alt="Logo Image" style={{ width: "200px" }} />
+        <img src={Logo} alt="Logo Image" style={{ width: "100px" }} />
       </div>
 
       {/* menu */}
@@ -101,7 +101,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="https://www.linkedin.com/in/dellsony-dissanayaka/"
             >
               Linkedin <FaLinkedin size={30} />
             </a>
@@ -109,7 +109,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="https://github.com/dellsony7"
             >
               Github <FaGithub size={30} />
             </a>
@@ -117,7 +117,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="mailto:eng.dellsony@gmail.com"
             >
               Email <HiOutlineMail size={30} />
             </a>
@@ -125,7 +125,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="https://drive.google.com/file/d/1a_WTpEhjV2oypE9C-TSRZ017aFAVIaNm/view?usp=sharing"
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>

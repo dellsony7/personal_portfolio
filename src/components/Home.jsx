@@ -1,7 +1,6 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
-import Dellsony from "../assets/dellsony.jpeg";
-import styles from "../style";
+
 
 const Home = () => {
   return (
@@ -9,9 +8,9 @@ const Home = () => {
       <div name="home" className="w-full h-screen bg-[#010201]">
         {/* Container */}
         <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
-          <p className="text-green-300">Hi, It's Me</p>
+          {/* <p className="text-green-300">Hi, It's Me</p> */}
           <h1 className="text-4xl sm:text-7xl font-bold text-[#ffffff]">
-            DELSANI DISSANAYAKA
+            DELSONY DISSANAYAKA
           </h1>
           <h2 className="text-4xl sm:text-7xl font-bold text-[#999999]">
             Imaginer Beyong the Visibility.
@@ -36,13 +35,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      {/* <div>
-        <img
-          src={Dellsony}
-          alt="profile Image"
-          className="w-[50%] h-[50%] z-[5]"
-        />
-      </div> */}
+
     </div>
   );
 };

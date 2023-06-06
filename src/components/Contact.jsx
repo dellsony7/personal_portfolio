@@ -15,10 +15,7 @@ const Contact = () => {
           <p className="text-4xl font-bold inline border-b-4 border-green-300 text-gray-300">
             Contact
           </p>
-          <p className="text-gray-300 py-4">
-            // Submit the form below or shoot me an email -
-            vutukuri.kumar192st.niituniversity.in
-          </p>
+          <p className="text-gray-300 py-4"></p>
         </div>
         <input
           className="bg-[#ffffff] p-2"
