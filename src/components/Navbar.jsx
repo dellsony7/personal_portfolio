@@ -172,7 +172,6 @@ const Navbar = () => {
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://drive.google.com/file/d/1a_WTpEhjV2oypE9C-TSRZ017aFAVIaNm/view?usp=sharing"
-              // href="https://drive.google.com/file/d/1yfHkMuYXc_jgismYY_apXRP5rYPSnWtm/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
