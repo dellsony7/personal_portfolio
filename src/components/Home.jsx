@@ -1,8 +1,69 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import Dellsony from "../assets/dellsony.jpeg";
+import { useMediaQuery } from "react-responsive";
+import Sololearn from "../assets/sololearn.svg";
+import {
+  FaGithub,
+  FaLinkedin,
+  FaFreeCodeCamp,
+  FaHackerrank,
+} from "react-icons/fa";
+import { HiOutlineMail } from "react-icons/hi";
+import { BsFillPersonLinesFill } from "react-icons/bs";
+
+const Profiles = () => {
+  return (
+    <div className="items-center flex">
+      <ul className="flex">
+        <li className=" w-[50px] h-[50px] flex items-center bg-blue-600">
+          <a
+            className="flex justify-between items-center w-full"
+            href="https://www.linkedin.com/in/dellsony-dissanayaka/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaLinkedin size={30} />
+          </a>
+        </li>
+        <li className="w-[50px] h-[50px] flex items-center bg-[#333333]">
+          <a
+            className="flex justify-between items-center w-full"
+            href="https://github.com/dellsony7"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaGithub size={30} />
+          </a>
+        </li>
+
+        <li className="w-[50px] h-[50px] flex items-center bg-[#6fc2b0]">
+          <a
+            className="flex justify-between items-center w-full"
+            href="mailto:eng.dellsony@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <HiOutlineMail size={30} />
+          </a>
+        </li>
+        <li className="w-[50px] h-[50px] flex items-center bg-[#565f69]">
+          <a
+            className="flex justify-between items-center w-full"
+            href="https://drive.google.com/file/d/1a_WTpEhjV2oypE9C-TSRZ017aFAVIaNm/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <BsFillPersonLinesFill size={30} />
+          </a>
+        </li>
+      </ul>
+    </div>
+  );
+};
 
 const Home = () => {
+  const isMobile = useMediaQuery({ query: "(max-width: 767px)" });
   return (
     <div>
       <section id="home" className="bg-[#010201]">
@@ -34,14 +95,24 @@ const Home = () => {
               </button>
             </div>
           </div>
+          <div>{isMobile && <Profiles />}</div>
 
-          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+          {!isMobile && (
+            <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+              <img
+                className="object-cover object-center rounded"
+                alt="hero"
+                src={Dellsony}
+              />
+            </div>
+          )}
+          {/* <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
             <img
               className="object-cover object-center rounded"
               alt="hero"
               src={Dellsony}
             />
-          </div>
+          </div> */}
         </div>
       </section>
     </div>
@@ -49,46 +120,3 @@ const Home = () => {
 };
 
 export default Home;
-
-// import React from "react";
-// import { HiArrowNarrowRight } from "react-icons/hi";
-
-// const Home = () => {
-//   return (
-//     <div>
-//       <div name="home" className="w-full h-screen bg-[#010201]">
-//         {/* Container */}
-//         <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
-//           {/* <p className="text-green-300">Hi, It's Me</p> */}
-//           <h1 className="text-4xl sm:text-7xl font-bold text-[#ffffff]">
-//             DELSONY DISSANAYAKA
-//           </h1>
-//           <h2 className="text-4xl sm:text-7xl font-bold text-[#999999]">
-//             Imaginer Beyong the Visibility.
-//           </h2>
-//           <p className="text-[#999999] py-4 max-w-[700px]">
-//             I orchestrate the symphony of technology, weaving together front-end
-//             finesse and back-end brilliance. As a full-stack developer, I am
-//             dedicated to crafting extraordinary digital experiences that
-//             captivate and inspire. From envisioning stunning designs to
-//             implementing seamless functionality, I am in my element. Currently,
-//             my focus lies in the realm of responsive full-stack web
-//             applications, where I bring dreams to life with code. Together,
-//             let's create a digital masterpiece that leaves a lasting impression.
-//           </p>
-//           <div>
-//             <button className="border-green-300 text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-green-300 hover:border-green-300">
-//               View Work
-//               <span className="group-hover:rotate-90 duration-300">
-//                 <HiArrowNarrowRight className="ml-3 " />
-//               </span>
-//             </button>
-//           </div>
-//         </div>
-//       </div>
-
-//     </div>
-//   );
-// };
-
-// export default Home;
