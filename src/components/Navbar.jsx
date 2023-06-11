@@ -40,16 +40,21 @@ const Navbar = () => {
             Skills
           </Link>
         </li>
-        {/* <li>
-          <Link to="work" smooth={true} duration={500}>
-            Work
-          </Link>
-        </li> */}
         <li>
+          <Link to="Certifications" smooth={true} duration={500}>
+            Certifications
+          </Link>
+        </li>
+        <li>
+          <Link to="work" smooth={true} duration={500}>
+            Works
+          </Link>
+        </li>
+        {/* <li>
           <Link to="contact" smooth={true} duration={500}>
             Contact
           </Link>
-        </li>
+        </li> */}
       </ul>
 
       {/* Hamburger */}
