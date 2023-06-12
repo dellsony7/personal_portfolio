@@ -7,6 +7,7 @@ import {
   FaLinkedin,
   FaFreeCodeCamp,
   FaHackerrank,
+  FaBitbucket,
 } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
@@ -122,6 +123,16 @@ const Navbar = () => {
               rel="noopener noreferrer"
             >
               Github <FaGithub size={30} />
+            </a>
+          </li>
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0c3de0]">
+            <a
+              className="flex justify-between items-center w-full text-gray-300"
+              href="https://bitbucket.org/Dellsony/workspace/repositories"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Github <FaBitbucket size={30} />
             </a>
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#000000]">
