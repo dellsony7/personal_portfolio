@@ -43,16 +43,16 @@ const Profiles = () => {
             <HiOutlineMail size={30} />
           </a>
         </li>
-        <li className="w-[50px] h-[50px] flex items-center bg-[#565f69]">
+        {/* <li className="w-[50px] h-[50px] flex items-center bg-[#565f69]">
           <a
             className="flex justify-between items-center w-full"
-            href="https://drive.google.com/file/d/1a_WTpEhjV2oypE9C-TSRZ017aFAVIaNm/view?usp=sharing"
+            href=""
             target="_blank"
             rel="noopener noreferrer"
           >
             <BsFillPersonLinesFill size={30} />
           </a>
-        </li>
+        </li> */}
       </ul>
     </div>
   );
