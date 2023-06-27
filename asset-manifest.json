@@ -1,19 +1,17 @@
 {
   "files": {
     "main.css": "/personal_portfolio/static/css/main.94bcdaea.css",
-    "main.js": "/personal_portfolio/static/js/main.3d70c63b.js",
-    "static/media/foodapp.png": "/personal_portfolio/static/media/foodapp.3e8bf4a039e82261a6cc.png",
+    "main.js": "/personal_portfolio/static/js/main.29fdd5e4.js",
     "static/media/dellsony.jpeg": "/personal_portfolio/static/media/dellsony.f1fdfa85e82eeb43c983.jpeg",
     "static/media/Wordpress_Blue_logo.png": "/personal_portfolio/static/media/Wordpress_Blue_logo.709a24d0d9031a20e5bc.png",
     "static/media/JSintermediate.png": "/personal_portfolio/static/media/JSintermediate.ddf86d8ccbce4079497c.png",
     "static/media/jsintroduction.png": "/personal_portfolio/static/media/jsintroduction.fa6d7faf2912ad5c4bba.png",
     "static/media/introductiontopython.png": "/personal_portfolio/static/media/introductiontopython.3069a95d2eb69715295e.png",
     "static/media/photoshop.png": "/personal_portfolio/static/media/photoshop.904e9bfd02239c75819f.png",
+    "static/media/webflow.jpg": "/personal_portfolio/static/media/webflow.f98af1b90fa110c768bc.jpg",
     "static/media/AsianScienceCamp2022.jpg": "/personal_portfolio/static/media/AsianScienceCamp2022.737e2e1e722c18302acb.jpg",
-    "static/media/realestate.jpg": "/personal_portfolio/static/media/realestate.737e2e1e722c18302acb.jpg",
     "static/media/c-logo-vector.png": "/personal_portfolio/static/media/c-logo-vector.09450dca098fd5a98918.png",
     "static/media/illustrator.png": "/personal_portfolio/static/media/illustrator.1101a43f2fc7ec56a3af.png",
-    "static/media/workImg.jpeg": "/personal_portfolio/static/media/workImg.e4c66be6ae2ae4f83608.jpeg",
     "static/media/react.png": "/personal_portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/node.png": "/personal_portfolio/static/media/node.952a9ea986dcfa5229ad.png",
     "static/media/github.png": "/personal_portfolio/static/media/github.3b9e32903aa89111875d.png",
@@ -21,13 +19,14 @@
     "static/media/tailwind.png": "/personal_portfolio/static/media/tailwind.e47ac876b8d4d0bba47a.png",
     "static/media/css.png": "/personal_portfolio/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/personal_portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "static/media/foodapp.jpg": "/personal_portfolio/static/media/foodapp.46b822cc00ca145e783f.jpg",
     "static/media/sololearn.svg": "/personal_portfolio/static/media/sololearn.6a51a7a020ec50dc111549717c1713b2.svg",
     "index.html": "/personal_portfolio/index.html",
     "main.94bcdaea.css.map": "/personal_portfolio/static/css/main.94bcdaea.css.map",
-    "main.3d70c63b.js.map": "/personal_portfolio/static/js/main.3d70c63b.js.map"
+    "main.29fdd5e4.js.map": "/personal_portfolio/static/js/main.29fdd5e4.js.map"
   },
   "entrypoints": [
     "static/css/main.94bcdaea.css",
-    "static/js/main.3d70c63b.js"
+    "static/js/main.29fdd5e4.js"
   ]
 }
