@@ -1,34 +1,27 @@
-import WorkIm from "../assets/projects/workImg.jpeg";
-import RealEst from "../assets/projects/realestate.jpg";
-import FoodApp from "../assets/projects/foodapp.png";
+import WF from "../assets/projects/webflow.jpg";
+import ytclone from "../assets/projects/ytclone.jpg";
+import foodapp from "../assets/projects/foodapp.jpg";
 
 export const data = [
   {
     id: 1,
-    name: "React JS Application",
-    image: FoodApp,
+    name: "Food App - React JS",
+    image: foodapp,
     github: "",
-    live: "",
+    live: "https://dellsony7.github.io/hot-plate/",
   },
   {
     id: 2,
-    name: "React JS Application",
-    image: RealEst,
+    name: "YT Clone - React JS",
+    image: ytclone,
     github: "",
-    live: "",
+    live: "https://dellsony7.github.io/yt_clone_for_mern_developer/",
   },
   {
     id: 3,
-    name: "React JS Application",
-    image: WorkIm,
+    name: "Portfolio -Webflow",
+    image: WF,
     github: "",
-    live: "",
-  },
-  {
-    id: 4,
-    name: "React JS Application",
-    image: RealEst,
-    github: "",
-    live: "",
+    live: "https://assesment-for-cdazzdev.webflow.io/projects",
   },
 ];

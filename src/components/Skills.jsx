@@ -53,13 +53,9 @@ const Skills = () => {
             <p className="my-4">Bitbucket</p>
           </div>
           {/* <div className="shadow-md shadow-green-300 hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Node} alt="HTML icon" />
-            <p className="my-4">NODE JS</p>
-          </div> */}
-          <div className="shadow-md shadow-green-300 hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={Tailwind} alt="HTML icon" />
             <p className="my-4">TAILWIND</p>
-          </div>
+          </div> */}
           <div className="shadow-md shadow-green-300 hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={Wordpress} alt="HTML icon" />
             <p className="my-4">WordPress</p>
@@ -73,19 +69,16 @@ const Skills = () => {
             <p className="my-4">C++</p>
           </div>
 
-          <div className="shadow-md shadow-green-300 hover:scale-110 duration-500">
+          {/* <div className="shadow-md shadow-green-300 hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={Illuustrator} alt="HTML icon" />
             <p className="my-4">Illuustrator</p>
           </div>
           <div className="shadow-md shadow-green-300 hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={Photoshop} alt="HTML icon" />
             <p className="my-4">Photoshop</p>
-          </div>
+          </div> */}
 
-          {/* <div className='shadow-md shadow-green-300 hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={FireBase} alt="HTML icon" />
-                  <p className='my-4'>FIREBASE</p>
-              </div> */}
+
         </div>
       </div>
     </div>
