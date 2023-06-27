@@ -1,14 +1,10 @@
 import React from "react";
+import { Link } from "react-scroll";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import Dellsony from "../assets/dellsony.jpeg";
 import { useMediaQuery } from "react-responsive";
 import Sololearn from "../assets/sololearn.svg";
-import {
-  FaGithub,
-  FaLinkedin,
-  FaFreeCodeCamp,
-  FaHackerrank,
-} from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
@@ -87,12 +83,21 @@ const Home = () => {
               lasting impression.
             </p>
             <div>
-              <button className="border-[#6fc2b0] text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#6fc2b0] hover:border-[#6fc2b0]">
-                View Work
-                <span className="group-hover:rotate-90 duration-300">
-                  <HiArrowNarrowRight className="ml-3 " />
-                </span>
-              </button>
+              <Link
+                activeClass="active"
+                to="work"
+                spy={true}
+                smooth={true}
+                offset={-70} // Adjust this value to fit your needs
+                duration={1000}
+              >
+                <button className="border-[#6fc2b0] text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#6fc2b0] hover:border-[#6fc2b0]">
+                  View Work
+                  <span className="group-hover:rotate-90 duration-300">
+                    <HiArrowNarrowRight className="ml-3 " />
+                  </span>
+                </button>
+              </Link>
             </div>
           </div>
           <div>{isMobile && <Profiles />}</div>

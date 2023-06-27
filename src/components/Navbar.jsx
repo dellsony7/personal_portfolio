@@ -10,7 +10,6 @@ import {
   FaBitbucket,
 } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
 import LogoNew from "../assets/logonew.png";
 import { Link } from "react-scroll";
 
@@ -51,11 +50,6 @@ const Navbar = () => {
             Works
           </Link>
         </li>
-        {/* <li>
-          <Link to="contact" smooth={true} duration={500}>
-            Contact
-          </Link>
-        </li> */}
       </ul>
 
       {/* Hamburger */}
