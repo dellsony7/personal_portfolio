@@ -1,20 +1,21 @@
-import React from "react";
+import React from "react"
 
-import HTML from "../assets/html.png";
-import CSS from "../assets/css.png";
-import JavaScript from "../assets/javascript.png";
-import ReactImg from "../assets/react.png";
-import Node from "../assets/node.png";
-import Wordpress from "../assets/Wordpress_Blue_logo.png";
-import GitHub from "../assets/github.png";
-import Tailwind from "../assets/tailwind.png";
-import Python from "../assets/python.png";
-import Bitbucket from "../assets/bitbucket.png";
-import Illuustrator from "../assets/illustrator.png";
-import Photoshop from "../assets/photoshop.png";
-import C from "../assets/c-logo-vector.png";
-import Mongo from "../assets/mongo.png";
-import Express from "../assets/express.png";
+import HTML from "../assets/html.png"
+import CSS from "../assets/css.png"
+import SASS from "../assets/sass.png"
+import JavaScript from "../assets/javascript.png"
+import ReactImg from "../assets/react.png"
+import Node from "../assets/node.png"
+import Wordpress from "../assets/Wordpress_Blue_logo.png"
+import GitHub from "../assets/github.png"
+import Tailwind from "../assets/tailwind.png"
+import Python from "../assets/python.png"
+import Bitbucket from "../assets/bitbucket.png"
+import Illuustrator from "../assets/illustrator.png"
+import Photoshop from "../assets/photoshop.png"
+import C from "../assets/c-logo-vector.png"
+import Mongo from "../assets/mongo.png"
+import Express from "../assets/express.png"
 
 const Skills = () => {
   return (
@@ -58,6 +59,10 @@ const Skills = () => {
             <img className="w-20 mx-auto" src={CSS} alt="HTML icon" />
             <p className="my-4">CSS</p>
           </div>
+          <div className="shadow-md shadow-green-300 hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={SASS} alt="HTML icon" />
+            <p className="my-4">SASS</p>
+          </div>
 
           <div className="shadow-md shadow-green-300 hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={GitHub} alt="HTML icon" />
@@ -95,7 +100,7 @@ const Skills = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Skills;
+export default Skills
