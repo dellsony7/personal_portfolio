@@ -1,7 +1,8 @@
-import scienceCamp from "../assets/Certificates/AsianScienceCamp2022.jpg";
-import jsintermeidate from "../assets/Certificates/JSintermediate.png";
-import jsintro from "../assets/Certificates/jsintroduction.png";
-import pythonintro from "../assets/Certificates/introductiontopython.png";
+import scienceCamp from "../assets/Certificates/AsianScienceCamp2022.jpg"
+import jsintermeidate from "../assets/Certificates/JSintermediate.png"
+import jsintro from "../assets/Certificates/jsintroduction.png"
+import pythonintro from "../assets/Certificates/introductiontopython.png"
+import responsive_web from "../assets/Certificates/responsiveWeb.png"
 
 export const data = [
   {
@@ -27,4 +28,11 @@ export const data = [
     image: pythonintro,
     github: "https://www.sololearn.com/certificates/CC-CVVGLOXP",
   },
-];
+  {
+    id: 5,
+    name: "Introduction to Python",
+    image: responsive_web,
+    github:
+      "https://www.freecodecamp.org/certification/fcc6196b037-a1a1-4835-82f6-52ac4c252b4b/responsive-web-design",
+  },
+]
