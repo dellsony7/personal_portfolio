@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import Sololearn from "../assets/sololearn.svg";
+import React, { useState } from "react"
+import Sololearn from "../assets/sololearn.svg"
 import {
   FaBars,
   FaTimes,
@@ -8,14 +8,14 @@ import {
   FaFreeCodeCamp,
   FaHackerrank,
   FaBitbucket,
-} from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/hi";
-import LogoNew from "../assets/logonew.png";
-import { Link } from "react-scroll";
+} from "react-icons/fa"
+import { HiOutlineMail } from "react-icons/hi"
+import LogoNew from "../assets/logonew.png"
+import { Link } from "react-scroll"
 
 const Navbar = () => {
-  const [nav, setNav] = useState(false);
-  const handleClick = () => setNav(!nav);
+  const [nav, setNav] = useState(false)
+  const handleClick = () => setNav(!nav)
 
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-[#999999]">
@@ -126,7 +126,7 @@ const Navbar = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Github <FaBitbucket size={30} />
+              Bitbucket <FaBitbucket size={30} />
             </a>
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#000000]">
@@ -191,7 +191,7 @@ const Navbar = () => {
         </ul>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Navbar;
+export default Navbar
