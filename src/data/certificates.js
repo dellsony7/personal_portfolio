@@ -3,6 +3,7 @@ import jsintermeidate from "../assets/Certificates/JSintermediate.png"
 import jsintro from "../assets/Certificates/jsintroduction.png"
 import pythonintro from "../assets/Certificates/introductiontopython.png"
 import responsive_web from "../assets/Certificates/responsiveWeb.png"
+import  frontenddevlibraries  from "../assets/Certificates/frontenddevlibraries.png";
 
 export const data = [
   {
@@ -35,4 +36,14 @@ export const data = [
     github:
       "https://www.freecodecamp.org/certification/fcc6196b037-a1a1-4835-82f6-52ac4c252b4b/responsive-web-design",
   },
+
+  {
+    id: 5,
+    name: "Front End Development Libraries",
+    image: frontenddevlibraries,
+    github:
+      "https://www.freecodecamp.org/certification/fcc6196b037-a1a1-4835-82f6-52ac4c252b4b/front-end-development-libraries",
+  },
 ]
+
+
