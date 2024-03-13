@@ -7,7 +7,7 @@ const Certifications = () => {
   return (
     <div
       name="Certifications"
-      className="w-full md:h-screen text-gray-300 bg-[#010201]"
+      className="w-full md:h-full text-gray-300 bg-[#010201]"
     >
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
