@@ -35,6 +35,14 @@ const Skills = () => {
             <p className="my-4">JavaScript</p>
           </div>
           <div className="shadow-md shadow-green-300 hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={Node} alt="HTML icon" />
+            <p className="my-4">NodeJS</p>
+          </div>
+          <div className="shadow-md shadow-green-300 hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={Node} alt="HTML icon" />
+            <p className="my-4">NestJS</p>
+          </div>sss
+          <div className="shadow-md shadow-green-300 hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={Mongo} alt="HTML icon" />
             <p className="my-4">MongoDB</p>
           </div>
@@ -46,10 +54,7 @@ const Skills = () => {
             <img className="w-20 mx-auto" src={ReactImg} alt="HTML icon" />
             <p className="my-4">React</p>
           </div>
-          <div className="shadow-md shadow-green-300 hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Node} alt="HTML icon" />
-            <p className="my-4">NodeJS</p>
-          </div>
+        
 
           <div className="shadow-md shadow-green-300 hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={HTML} alt="HTML icon" />
