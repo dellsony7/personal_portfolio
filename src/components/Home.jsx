@@ -1,12 +1,12 @@
-import React from "react";
-import { Link } from "react-scroll";
-import { HiArrowNarrowRight } from "react-icons/hi";
-import Dellsony from "../assets/dellsony.jpeg";
-import { useMediaQuery } from "react-responsive";
-import Sololearn from "../assets/sololearn.svg";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+import React from "react"
+import { Link } from "react-scroll"
+import { HiArrowNarrowRight } from "react-icons/hi"
+import Dellsony from "../assets/dellsony.jpeg"
+import { useMediaQuery } from "react-responsive"
+// import Sololearn from "../assets/sololearn.svg"
+import { FaGithub, FaLinkedin } from "react-icons/fa"
+import { HiOutlineMail } from "react-icons/hi"
+// import { BsFillPersonLinesFill } from "react-icons/bs"
 
 const Profiles = () => {
   return (
@@ -55,11 +55,11 @@ const Profiles = () => {
         </li> */}
       </ul>
     </div>
-  );
-};
+  )
+}
 
 const Home = () => {
-  const isMobile = useMediaQuery({ query: "(max-width: 767px)" });
+  const isMobile = useMediaQuery({ query: "(max-width: 767px)" })
   return (
     <div>
       <section id="home" className="bg-[#010201]">
@@ -121,7 +121,7 @@ const Home = () => {
         </div>
       </section>
     </div>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home
