@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/personal_portfolio/static/css/main.94bcdaea.css",
-    "main.js": "/personal_portfolio/static/js/main.b99d3621.js",
+    "main.css": "/personal_portfolio/static/css/main.9289eb63.css",
+    "main.js": "/personal_portfolio/static/js/main.a0ecaffc.js",
     "static/media/dellsony.jpeg": "/personal_portfolio/static/media/dellsony.f1fdfa85e82eeb43c983.jpeg",
     "static/media/Wordpress_Blue_logo.png": "/personal_portfolio/static/media/Wordpress_Blue_logo.709a24d0d9031a20e5bc.png",
     "static/media/JSintermediate.png": "/personal_portfolio/static/media/JSintermediate.ddf86d8ccbce4079497c.png",
@@ -25,11 +25,11 @@
     "static/media/foodapp.jpg": "/personal_portfolio/static/media/foodapp.46b822cc00ca145e783f.jpg",
     "static/media/sololearn.svg": "/personal_portfolio/static/media/sololearn.6a51a7a020ec50dc111549717c1713b2.svg",
     "index.html": "/personal_portfolio/index.html",
-    "main.94bcdaea.css.map": "/personal_portfolio/static/css/main.94bcdaea.css.map",
-    "main.b99d3621.js.map": "/personal_portfolio/static/js/main.b99d3621.js.map"
+    "main.9289eb63.css.map": "/personal_portfolio/static/css/main.9289eb63.css.map",
+    "main.a0ecaffc.js.map": "/personal_portfolio/static/js/main.a0ecaffc.js.map"
   },
   "entrypoints": [
-    "static/css/main.94bcdaea.css",
-    "static/js/main.b99d3621.js"
+    "static/css/main.9289eb63.css",
+    "static/js/main.a0ecaffc.js"
   ]
 }
