@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/personal_portfolio/static/css/main.94bcdaea.css",
-    "main.js": "/personal_portfolio/static/js/main.62aacd5e.js",
+    "main.js": "/personal_portfolio/static/js/main.193689fe.js",
     "static/media/dellsony.jpeg": "/personal_portfolio/static/media/dellsony.f1fdfa85e82eeb43c983.jpeg",
     "static/media/Wordpress_Blue_logo.png": "/personal_portfolio/static/media/Wordpress_Blue_logo.709a24d0d9031a20e5bc.png",
     "static/media/JSintermediate.png": "/personal_portfolio/static/media/JSintermediate.ddf86d8ccbce4079497c.png",
@@ -28,10 +28,10 @@
     "static/media/sololearn.svg": "/personal_portfolio/static/media/sololearn.6a51a7a020ec50dc111549717c1713b2.svg",
     "index.html": "/personal_portfolio/index.html",
     "main.94bcdaea.css.map": "/personal_portfolio/static/css/main.94bcdaea.css.map",
-    "main.62aacd5e.js.map": "/personal_portfolio/static/js/main.62aacd5e.js.map"
+    "main.193689fe.js.map": "/personal_portfolio/static/js/main.193689fe.js.map"
   },
   "entrypoints": [
     "static/css/main.94bcdaea.css",
-    "static/js/main.62aacd5e.js"
+    "static/js/main.193689fe.js"
   ]
 }
